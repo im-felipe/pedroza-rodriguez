@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Página Parcial</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    h2, p {
+        text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border: 1px solid #CCCCCC;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #CCCCCC;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    input[type="submit"] {
+      background: #4A6572;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background: #2C3E50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Página Parcial</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Inicio</a>
+    <a href="sobre-mi.html">Sobre mí</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+        <h2>Contáctame</h2>
+        <p>Si quieres ponerte en contacto, completa el siguiente formulario:</p>
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <input type="submit" value="Enviar">
+        </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Página Parcial</p>
+  </footer>
+</body>
+</html>
