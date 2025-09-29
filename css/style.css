@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif, sans-serif;
     background: #f9f9f9;
 }
 
@@ -37,7 +37,7 @@ main {
 
 .banner img {
     width: 100%;
-    height: auto;
+    height: 400px;
     display: block; 
 }
 
@@ -49,12 +49,15 @@ aside {
     display: inline-block;
     vertical-align: top;
     width: 25%;
-    height: 380px;
     background: #EAEAEA;
     padding: 15px;
     border: 1px solid #CCCCCC;
-    font-size: 16px;
+    font-size: 20px;
     box-sizing: border-box;
+    position: sticky;
+    top: 1rem;
+    align-self: flex-start;
+    height: fit-content;  
 }
 
 .articulos {
@@ -72,3 +75,8 @@ article {
     margin-bottom: 20px;
     padding: 15px;
 }
+
+.social i { color: #666; transition: color .2s; }
+.social.instagram i:hover { color: #E1306C; }
+.social.youtube i:hover   { color: #FF0000; }
+.social.facebook i:hover  { color: #1877F2; }
