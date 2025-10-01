@@ -2,17 +2,21 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Computación Cuántica</title>
+  <title>Mundo Cuántico</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>Computación Cuántica</h1>
+    <div class="logo-titulo">
+      <img src="img/logo.png" alt="Logo Mundo Cuántico" class="logo">
+      <h1>Mundo Cuántico</h1>
+    </div>
   </header>
+
 
   <nav>
     <a href="index.html">Inicio</a>
-    <a href="html/sobre-mi.html">Sobre mí</a>
+    <a href="html/sobre-nosotros.html">Sobre nosotros</a>
     <a href="html/contacto.html">Contacto</a>
   </nav>
 
@@ -35,11 +39,49 @@
       <div class="articulos">
         <article id="articulo1">
           <h2>¿Qué es la computación cuántica?</h2>
-          <p>La computación cuántica es un campo multidisciplinario que aúna aspectos de ciencias de la computación, física y matemáticas y utiliza mecánicas cuánticas para resolver problemas complejos más rápido que las computadoras clásicas. El campo de la computación cuántica incluye investigación de hardware y desarrollo de aplicaciones. Las computadoras cuánticas son capaces de resolver ciertos tipos de problemas más rápido que las computadoras clásicas, ya que sacan partido de los efectos de la mecánica cuántica, como la superposición y la interferencia cuántica. Algunas aplicaciones en las que las computadoras cuánticas pueden brindar dicho impulso de velocidad son el machine learning (ML), la optimización y la simulación de sistemas físicos. Entre los casos de uso eventuales se incluyen la optimización de la cartera en finanzas o la simulación de sistemas químicos; en definitiva, la solución de problemas que actualmente no pueden abordar ni las supercomputadoras más potentes del mercado.</p>
+          <p>La computación cuántica es un campo multidisciplinario que aúna aspectos de ciencias de la computación, física y matemáticas y utiliza mecánicas cuánticas para resolver problemas complejos más rápido que las computadoras clásicas. El campo de la computación cuántica incluye investigación de hardware y desarrollo de aplicaciones. Las computadoras cuánticas son capaces de resolver ciertos tipos de problemas más rápido que las computadoras clásicas, ya que sacan partido de los efectos de la mecánica cuántica, como la superposición y la interferencia cuántica. Algunas aplicaciones en las que las computadoras cuánticas pueden brindar dicho impulso de velocidad son el machine learning (ML), la optimización y la simulación de sistemas físicos. Entre los casos de uso eventuales se incluyen la optimización de la cartera en finanzas o la simulación de sistemas químicos; en definitiva, la solución de problemas que actualmente no pueden abordar ni las supercomputadoras más potentes del mercado. <br><br></p>
+          <div class="video-container">
+            <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/GFg4aDVWWb4"
+                    title="Quantum Computers Explained: How Quantum Computing Works"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+            </iframe>
+          </div>
+
         </article>
         <article id="articulo2">
-          <h2>¿Cuál es la ventaja de la computación cuántica?</h2>
-          <p>Actualmente, ninguna computadora cuántica puede realizar una tarea útil de manera más rápida, económica o eficiente que una computadora clásica. La ventaja cuántica es el umbral en el que hemos construido un sistema cuántico que puede realizar operaciones que la mejor computadora cuántica posible no puede simular en ningún tipo de tiempo razonable.</p>
+          <h2>¿Cuáles son las ventajas de la computación cuántica?</h2>
+          <p>
+            La principal ventaja de la computación cuántica radica en su capacidad para 
+            resolver problemas que hoy en día resultan prácticamente imposibles para las 
+            computadoras clásicas. Gracias a fenómenos cuánticos como la 
+            <strong>superposición</strong> y el <strong>entrelazamiento</strong>, un cúbit 
+            puede representar varios estados al mismo tiempo, lo que permite realizar un 
+            procesamiento paralelo masivo y reducir de manera significativa el tiempo de 
+            cálculo. <br> <br>
+          </p>
+
+          <p>
+            En áreas como la <strong>medicina</strong>, la computación cuántica podría 
+            acelerar el descubrimiento de nuevos fármacos mediante la simulación precisa 
+            de moléculas complejas. Puedes conocer más en este 
+            <a href="https://youtu.be/DrZ8dv9kKuY?si=BtF9RRG6ccr2t0MB" target="_blank">
+              video sobre computación cuántica en la medicina
+            </a>.
+            En <strong>finanzas</strong>, puede optimizar carteras de inversión con 
+            millones de variables y escenarios en segundos. En 
+            <strong>logística</strong>, facilita el diseño de rutas y cadenas de 
+            suministro más eficientes, reduciendo costos y emisiones contaminantes. <br><br>
+          </p>
+          <p>
+            Otro beneficio es su potencial en el campo de la <strong>ciberseguridad</strong>. 
+            Mientras que algunos algoritmos de cifrado tradicionales podrían verse 
+            vulnerables, la computación cuántica también abre la puerta a nuevas técnicas de 
+            criptografía cuántica más seguras, basadas en principios como la distribución de 
+            claves cuánticas (QKD).
+          </p>
         </article>
         <article id="articulo3">
           <h2>¿Qué es la mecánica cuántica?</h2>
@@ -52,7 +94,8 @@
             <br>
             <strong>¿En qué se diferencian los cúbits de los bits clásicos?</strong> <br>
             <br>
-            En la computación clásica, un bit es una señal electrónica que está encendida o apagada. El valor del bit clásico puede ser uno (encendido) o cero (apagado). Sin embargo, debido a que el cúbit se basa en las leyes de la mecánica cuántica, se puede colocar en una superposición de estados.
+            En la computación clásica, un bit es una señal electrónica que está encendida o apagada. El valor del bit clásico puede ser uno (encendido) o cero (apagado). Sin embargo, debido a que el cúbit se basa en las leyes de la mecánica cuántica, se puede colocar en una superposición de estados. <br><br>
+            Si quieres profundizar más, te recomiendo este artículo de Muy Interesante: <a href="https://www.muyinteresante.com/ciencia/que-es-un-cubit.html" target="_blank">“Cúbit, la unidad fundamental de información cuántica explicada paso a paso”</a>, donde se explica de manera clara cómo funciona un cúbit y en qué se diferencia de un bit clásico.
           </p>
         </article>
         <article id="articulo5">
@@ -62,8 +105,68 @@
         </article>
         <article id="articulo6">
           <h2>¿Cuáles son los componentes de una computadora cuántica?</h2>
-          <p>Las computadoras cuánticas tienen hardware y software, similar a una computadora clásica.<br><br> <strong>Hardware cuántico: </strong><br><br>El hardware cuántico tiene tres componentes principales. <br><br><strong>Plano de datos cuánticos: </strong><br><br>El plano de datos cuánticos es el núcleo de la computadora cuántica e incluye los cúbits físicos y las estructuras necesarias para mantenerlos en su lugar.<br><br> <strong>Plano de control y medida: </strong><br><br>El plano de control y medición convierte las señales digitales en señales analógicas o de control de onda. Estas señales analógicas realizan las operaciones en los cúbits en el plano de datos cuánticos.<br><br> <strong>Plano del procesador de control y procesador host: </strong><br><br>El plano del procesador de control implementa el algoritmo cuántico o secuencia de operaciones. El procesador host interactúa con el software cuántico y proporciona una señal digital o una secuencia de bits clásica al plano de control y medición. <br><br><strong>Software cuántico: </strong><br><br> El software cuántico implementa algoritmos cuánticos únicos utilizando circuitos cuánticos. Un circuito cuántico es una rutina de computación que define una serie de operaciones cuánticas lógicas en los cúbits subyacentes. Los desarrolladores pueden usar varias herramientas y bibliotecas de desarrollo de software para codificar algoritmos cuánticos.
+          <p>
+            Las computadoras cuánticas tienen dos grandes bloques: el 
+            <strong>hardware</strong> (la parte física) y el 
+            <strong>software</strong> (los algoritmos y programas que aprovechan los cúbits).
           </p>
+
+          <h3>1. Hardware cuántico</h3>
+          <p>
+            Es la parte física de la computadora cuántica y se organiza en tres planos principales:
+          </p>
+          <ul>
+            <li>
+              <strong>Plano de datos cuánticos:</strong> 
+              Es el corazón de la computadora cuántica. Aquí están los 
+              <em>cúbits físicos</em> y los dispositivos necesarios para mantenerlos estables, 
+              como sistemas de refrigeración que operan a temperaturas cercanas al cero absoluto.
+            </li>
+            <li>
+              <strong>Plano de control y medida:</strong> 
+              Envía señales (microondas o pulsos láser) a los cúbits para manipularlos 
+              y luego mide sus estados. Es el equivalente al "teclado y pantalla" del mundo cuántico.
+            </li>
+            <li>
+              <strong>Plano del procesador de control y procesador host:</strong> 
+              Funciona como un traductor entre el mundo clásico y el cuántico. 
+              El procesador host interpreta los algoritmos, los convierte en instrucciones cuánticas 
+              y recoge los resultados de los cúbits.
+            </li>
+          </ul>
+
+          <div style="text-align:center;">
+            <img src="img/hardware.jpeg" width="600">
+          </div>
+
+          <h3>2. Software cuántico</h3>
+          <p>
+            Es la parte lógica que indica qué operaciones realizar sobre los cúbits.
+          </p>
+          <ul>
+            <li>
+              Implementa <strong>algoritmos cuánticos</strong> que aprovechan fenómenos como 
+              la superposición y el entrelazamiento para resolver problemas complejos.
+            </li>
+            <li>
+              Permite aplicaciones en simulación molecular, optimización, inteligencia artificial y ciberseguridad.
+            </li>
+            <li>
+              Usa herramientas y bibliotecas de desarrollo como 
+              <strong>Qiskit (IBM)</strong> o <strong>Cirq (Google)</strong>.
+            </li>
+          </ul>
+
+          <div style="text-align:center;">
+            <img src="img/software.jpeg" width="600">
+          </div>
+
+          <p>
+            En resumen: el <strong>hardware cuántico</strong> es el cuerpo, 
+            el <strong>software cuántico</strong> es la mente, 
+            y el <strong>procesador host</strong> es el traductor que conecta ambos mundos.
+          </p>
+
         </article>
       </div>
     </div>
@@ -73,7 +176,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <div class="social-container">
-      <p>© 2025 Computación Cuántica</p>
+      <p>© 2025 Mundo Cuántico</p>
       <a href="https://www.instagram.com" target="_blank" class="red social instagram">
         <i class="fab fa-instagram"></i>
       </a>
